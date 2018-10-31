@@ -1,0 +1,37 @@
+{
+  "verticle": [
+    "com.sugar.judge.database.AccountDbVerticle",
+    "com.sugar.judge.database.ProblemDbVerticle",
+    "com.sugar.judge.database.SubmissionDbVerticle",
+    "com.sugar.judge.database.ContestDbVerticle",
+    "com.sugar.judge.database.ContestProblemDbVerticle",
+    "com.sugar.judge.database.ContestUserDbVerticle",
+    "com.sugar.judge.database.DiscussDbVerticle"
+  ],
+  "database": {
+    "port": 5432,
+    "host": "127.0.0.1",
+    "database": "sugar_judge",
+    "user": "sugar",
+    "password": "123456",
+    "maxSize": 80
+  },
+  "http_server": {
+    "address": "127.0.0.1",
+    "port": 9081
+  },
+  "redis": {},
+  "kafka": {},
+  "jwt": {
+    "keyStore": {
+      "path": "keystore.jceks",
+      "type": "jceks",
+      "password": "secret"
+    }
+  },
+  "testFilePath": {
+    "inData": "/Users/NicolasYezi/sugar-judge/test_data/in",
+    "outData": "/Users/NicolasYezi/sugar-judge/test_data/out"
+  },
+  "baseUrl": "/rest"
+}

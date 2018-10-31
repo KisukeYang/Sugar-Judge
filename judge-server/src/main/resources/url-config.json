@@ -1,0 +1,16 @@
+{
+  "address": [
+    {
+      "type": "user",
+      "subtype": "login",
+      "method": "post",
+      "auth": false
+    },
+    {
+      "type": "user",
+      "subtype": "logout",
+      "method": "post",
+      "auth": false
+    }
+  ]
+}

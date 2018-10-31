@@ -1,0 +1,180 @@
+= Cheatsheets
+
+[[Contest]]
+== Contest
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[autoStart]]`autoStart`|`Boolean`|-
+|[[commend]]`commend`|`String`|-
+|[[contestName]]`contestName`|`String`|-
+|[[contestStatus]]`contestStatus`|`String`|-
+|[[contestUsers]]`contestUsers`|`Array of link:dataobjects.html#ContestUser[ContestUser]`|-
+|[[createTime]]`createTime`|`String`|-
+|[[creator]]`creator`|`String`|-
+|[[description]]`description`|`String`|-
+|[[disuse]]`disuse`|`Boolean`|-
+|[[hidden]]`hidden`|`Boolean`|-
+|[[id]]`id`|`Number (Integer)`|-
+|[[problems]]`problems`|`Array of link:dataobjects.html#ContestProblem[ContestProblem]`|-
+|[[startTime]]`startTime`|`String`|-
+|[[timeLimit]]`timeLimit`|`String`|-
+|[[updateTime]]`updateTime`|`String`|-
+|===
+
+[[ContestProblem]]
+== ContestProblem
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[accept]]`accept`|`Number (Integer)`|-
+|[[contestId]]`contestId`|`Number (Integer)`|-
+|[[problemId]]`problemId`|`Number (Integer)`|-
+|[[submit]]`submit`|`Number (Integer)`|-
+|[[title]]`title`|`String`|-
+|===
+
+[[ContestUser]]
+== ContestUser
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[acList]]`acList`|`String`|-
+|[[accept]]`accept`|`Number (Integer)`|-
+|[[contestId]]`contestId`|`Number (Integer)`|-
+|[[nickName]]`nickName`|`String`|-
+|[[penalty]]`penalty`|`Number (Integer)`|-
+|[[submits]]`submits`|`Number (Integer)`|-
+|[[userId]]`userId`|`Number (Integer)`|-
+|===
+
+[[Problem]]
+== Problem
+
+++++
+ 类描述： 试题 entity
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[acNum]]`acNum`|`Number (Integer)`|-
+|[[acRatio]]`acRatio`|`Number (Double)`|-
+|[[alterOutData]]`alterOutData`|`String`|-
+|[[author]]`author`|`String`|-
+|[[background]]`background`|`String`|-
+|[[clickNum]]`clickNum`|`Number (Integer)`|-
+|[[code]]`code`|`String`|-
+|[[conditionalJudger]]`conditionalJudger`|`String`|-
+|[[content]]`content`|`String`|-
+|[[difficulty]]`difficulty`|`Number (Integer)`|-
+|[[disuse]]`disuse`|`Boolean`|-
+|[[hidden]]`hidden`|`Boolean`|-
+|[[hint]]`hint`|`String`|-
+|[[id]]`id`|`Number (Integer)`|-
+|[[inFilePath]]`inFilePath`|`String`|-
+|[[insertTime]]`insertTime`|`String`|-
+|[[memoryLimit]]`memoryLimit`|`Number (Integer)`|-
+|[[outFilePath]]`outFilePath`|`String`|-
+|[[sampleInput]]`sampleInput`|`String`|-
+|[[sampleOutput]]`sampleOutput`|`String`|-
+|[[submitNum]]`submitNum`|`Number (Integer)`|-
+|[[tab]]`tab`|`String`|-
+|[[theInput]]`theInput`|`String`|-
+|[[theOutput]]`theOutput`|`String`|-
+|[[timeLimit]]`timeLimit`|`Number (Integer)`|-
+|[[title]]`title`|`String`|-
+|[[type]]`type`|`String`|-
+|[[updateTime]]`updateTime`|`String`|-
+|===
+
+[[Submission]]
+== Submission
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[codeLock]]`codeLock`|`String`|-
+|[[color]]`color`|`String`|-
+|[[contest]]`contest`|`Number (Integer)`|-
+|[[contestId]]`contestId`|`Number (Integer)`|-
+|[[contestTime]]`contestTime`|`Number (Integer)`|-
+|[[errMsg]]`errMsg`|`String`|-
+|[[executeTime]]`executeTime`|`Number (Long)`|-
+|[[id]]`id`|`Number (Integer)`|-
+|[[ipFrom]]`ipFrom`|`String`|-
+|[[language]]`language`|`String`|-
+|[[nickName]]`nickName`|`String`|-
+|[[problemCode]]`problemCode`|`String`|-
+|[[problemId]]`problemId`|`Number (Integer)`|-
+|[[problemTitle]]`problemTitle`|`String`|-
+|[[status]]`status`|`String`|-
+|[[submitTime]]`submitTime`|`String`|-
+|[[userId]]`userId`|`Number (Integer)`|-
+|===
+
+[[User]]
+== User
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[ac]]`ac`|`Number (Integer)`|-
+|[[acRatio]]`acRatio`|`Number (Double)`|-
+|[[ce]]`ce`|`Number (Integer)`|-
+|[[email]]`email`|`String`|-
+|[[enabled]]`enabled`|`Boolean`|-
+|[[id]]`id`|`Number (Integer)`|-
+|[[ipInfo]]`ipInfo`|`String`|-
+|[[language]]`language`|`String`|-
+|[[mle]]`mle`|`Number (Integer)`|-
+|[[nickname]]`nickname`|`String`|-
+|[[password]]`password`|`String`|-
+|[[rankBefore]]`rankBefore`|`Number (Integer)`|-
+|[[rankNow]]`rankNow`|`Number (Integer)`|-
+|[[rankPoint]]`rankPoint`|`Number (Integer)`|-
+|[[re]]`re`|`Number (Integer)`|-
+|[[registerTime]]`registerTime`|`String`|-
+|[[role]]`role`|`String`|-
+|[[submit]]`submit`|`Number (Integer)`|-
+|[[tle]]`tle`|`Number (Integer)`|-
+|[[username]]`username`|`String`|-
+|[[wa]]`wa`|`Number (Integer)`|-
+|===
+
+[[UserInfo]]
+== UserInfo
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[ac]]`ac`|`Number (Integer)`|-
+|[[acRatio]]`acRatio`|`Number (Double)`|-
+|[[ce]]`ce`|`Number (Integer)`|-
+|[[mle]]`mle`|`Number (Integer)`|-
+|[[rankBefore]]`rankBefore`|`Number (Integer)`|-
+|[[rankNow]]`rankNow`|`Number (Integer)`|-
+|[[rankPoint]]`rankPoint`|`Number (Integer)`|-
+|[[re]]`re`|`Number (Integer)`|-
+|[[submit]]`submit`|`Number (Integer)`|-
+|[[tle]]`tle`|`Number (Integer)`|-
+|[[wa]]`wa`|`Number (Integer)`|-
+|===
+

@@ -1,0 +1,27 @@
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6OSwicm9sZSI6ImFkbWluIiwibmlja25hbWUiOiLotoXnrqHnnaHnnYDkuoblkJciLCJpYXQiOjE1MzUwMjQ5NzV9.hhDdASP6RS3G5fw2k7aG83-GWUbPhB7gPvFnUZAZCvaEa-b6q5pTbOqrkwgW2FTsb0l2netzsO70Lk2EHhTMlw",
+  "role": "admin",
+  "nickname": "超管睡着了吗",
+  "id": 9
+}
+
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6MTgsInJvbGUiOiJ1c2VyIiwibmlja25hbWUiOiLov5npopfns5bkuI3nlJwiLCJpYXQiOjE1MzQ5OTMyMjJ9.bmw5WfkwseTaL4nrVgG4XPqVvA9kE13IL_205C1T-AdLOE7LtLp1Ph92qWlS7FCeecGH1Q-cAWr-SfjDGIIrpA",
+  "role": "user",
+  "nickname": "这颗糖不甜",
+  "id": 18
+}
+
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6MjAsInJvbGUiOiJjb250ZXN0Iiwibmlja25hbWUiOiLlsI_mt5jmsJTmnbDnkZ4iLCJpYXQiOjE1MzQ5OTg0MTN9.Ay_Jo6GI_HSU_gxbRGVMCcbMZ5rgVjnNBT4eYWDwtx4bg4dTedeGnAKpkh_5Lvq1QyypL28o5Ukt_KtakpB50w",
+  "role": "contest",
+  "nickname": "小淘气杰瑞",
+  "id": 20
+}
+
+{
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpZCI6MTksInJvbGUiOiJjb250ZXN0Iiwibmlja25hbWUiOiLmsaTlp4bkuI3mmK_njKsiLCJpYXQiOjE1MzQ5OTg0NTJ9.sswgrtyIg3pcIX2zr_K8g88E_9YUwaqlHh2si6olZxwxsASA0KODjvEvHLzuZSX1YiYDZ3qnq1MqcCq3RTwFAA",
+  "role": "contest",
+  "nickname": "汤姆不是猫",
+  "id": 19
+}
